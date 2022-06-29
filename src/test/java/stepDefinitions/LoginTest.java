@@ -28,9 +28,9 @@ public class LoginTest {
 	@When("Login page is displayed I will enter username and password")
 	public void login_page_is_displayed_i_will_enter_username_and_password() {
 //	  base.driver.findElement(By.name("user_name")).sendKeys("admin");
-//	  base.driver.findElement(By.name("user_password")).sendKeys("manager");
+//	  base.driver.findElement(By.name("user_password")).sendKeys("admin");
 	base.pages.initLoginPage().getUserNameTextField().sendKeys("admin");
-	base.pages.initLoginPage().getPasswordTextField().sendKeys("manager");
+	base.pages.initLoginPage().getPasswordTextField().sendKeys("admin");
 	}
 
 	@When("click on login")

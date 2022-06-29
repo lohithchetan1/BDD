@@ -1,7 +1,7 @@
 Feature: Contact module
 
   Scenario: create a new contact with mandatory information
-    When login page is displayed I will enter username "admin" and password "manager"
+    When login page is displayed I will enter username "admin" and password "admin"
     And I Will click on login
     And click on contact
     And click on create new contact
